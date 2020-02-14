@@ -82,6 +82,8 @@ body{
     bottom: 20px;
     left: 20px;
     position: absolute;
+    font-family: sans-serif;
+    text-shadow: 2px 2px black;
 }
 
 .main-title{
@@ -96,3 +98,8 @@ body{
     margin-top: 0px;
 }
 
+.main-section-img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
