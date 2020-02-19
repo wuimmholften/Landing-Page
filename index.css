@@ -120,7 +120,7 @@ body{
     text-align: center;
     border: 1px solid #ccc;
     border-radius: 10px;
-    box-shadow: 2px 2px 4px #;
+    box-shadow: 2px 2px 4px;
 }
 
 .feature-title{
@@ -134,6 +134,53 @@ body{
     margin: auto;
 }
 
-.feature-description{
-
+.content footer{
+    text-align: center;
+    font-family: sans-serif;
 }
+
+.content .contact-section{
+   text-align: center;
+   font-family: sans-serif;
+}
+
+.content .contact-section p {
+    margin-bottom: 0px;
+    text-align: left;
+    font-size: .8em;
+    
+}
+
+.contact-section{
+    background-color:#00766c;
+}
+
+.contact-container{
+    width: 200px;
+    margin: auto;
+    
+}
+.contact-box{
+    display: flex;
+}
+
+input{
+    width: 100%;
+    
+}
+
+.send-button{
+    text-align: right;
+    
+}
+button{
+    background-color: orange;
+}
+
+
+
+
+
+
+
+
